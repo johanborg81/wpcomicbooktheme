@@ -33,6 +33,4 @@ require_once get_template_directory() . '/inc/customizer/footer-customizer.php';
 require_once get_template_directory() . '/inc/posts/jaybee_comics/functions.php';
 require_once get_template_directory() . '/inc/posts/characters/functions.php';
 
-
-
 // EOF

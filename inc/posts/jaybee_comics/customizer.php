@@ -773,3 +773,5 @@ class SingleComic
 }
 
 $comic_customizer = new SingleComic();
+
+// EOF

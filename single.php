@@ -29,9 +29,6 @@ get_header();
     <div class="comic__page">
         <?php //the_content(); ?>
     </div>
-    <!-- <div class="comic__description"> -->
-        <?php //the_excerpt(); ?>
-    <!-- </div> -->
     <?php
 
     endwhile;
@@ -61,3 +58,5 @@ get_header();
 <?php
 
 get_footer();
+
+// EOF

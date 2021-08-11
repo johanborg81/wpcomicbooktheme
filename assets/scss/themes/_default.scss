@@ -1,17 +1,11 @@
 .container {
     margin-left: 10px;
     margin-right: 10px;
-    // @media(min-width: $medium) {
-    //     // max-width: $medium;
-    //     // width: $medium;
-    // }
 
     @media(min-width: $large) {
         max-width: $large;
         width: $large;
         margin: auto;
-        // min-height: 100vh;
-        // @include center;
     }
 
     section {

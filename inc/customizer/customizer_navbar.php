@@ -89,3 +89,5 @@ class NavigationCustomizer {
 }
 
 $comic_navbar = new NavigationCustomizer();
+
+// EOF
