@@ -1,0 +1,54 @@
+.comic__page {
+    @include margins;
+
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.comic__description {
+    @include margins;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: $border-bottom;
+    border-bottom: $border-bottom;
+}
+
+.page__pagination {
+    @include margins;
+    @include center;
+
+    p {
+        margin: 0 10px 0 10px;
+    }
+}
+
+.comic__footer {
+
+    text-align: center;
+
+    .square__store {
+        @include margins;
+    }
+
+    .square__news {
+        @include margins;
+    }
+
+    .square__custom-links {
+        @include margins;
+
+        a {
+            background-color: #b3a8a6;
+            display: block;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        @media(min-width: $large) {
+            @include two_grid;
+        }
+    }
+}

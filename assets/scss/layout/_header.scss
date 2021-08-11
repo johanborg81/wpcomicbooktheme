@@ -1,0 +1,15 @@
+.showcase {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    @include center;
+    flex-direction: column;
+    background-attachment: scroll;
+
+    &__inner {
+        h2 {
+            font-size: 2em;
+        } 
+    }
+}

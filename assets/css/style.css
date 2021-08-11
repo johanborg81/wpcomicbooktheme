@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Rubik&display=swap");
+/**
+* Basic styles for list elements
+*/
+li {
+  list-style: none;
+  color: #1A3263;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/**
+* Basic styles for the headers
+*/
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+/**
+* Sets the font for the body
+*/
+a, p {
+  font-family: "Arvo", serif;
+}
+
+/**
+* Basic styles for paragraphs
+*/
+p {
+  letter-spacing: 1px;
+}
+
+/**
+* Basic styles for links
+*/
+a {
+  color: #1A3263;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ad__top {
+  background-color: red;
+}
+
+.ad__left {
+  display: none;
+}
+
+.ad__right {
+  background-color: red;
+  display: none;
+}
+
+.ad__square {
+  background-color: red;
+}
+
+.btn__link {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  background-color: #F5564E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__link:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+}
+
+footer {
+  background-color: #1A3263;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E8E2DB;
+  padding: 10px 10px;
+  display: block;
+}
+footer .footer__left ul li {
+  text-align: center;
+}
+footer .footer__left ul li a {
+  font-family: "Rubik", sans-serif;
+}
+footer .footer__middle {
+  text-align: center;
+  margin-top: 20px;
+}
+footer .footer__right {
+  margin-top: 20px;
+}
+footer .copyright {
+  text-align: center;
+}
+
+.form__contact {
+  margin-bottom: 20px;
+}
+.form__contact input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  padding: 10px 5px 10px 5px;
+}
+.form__contact textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 5px 10px 5px;
+}
+
+.showcase {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: scroll;
+}
+.showcase__inner h2 {
+  font-size: 2em;
+}
+
+.navbar {
+  background-color: #1A3263;
+  overflow: hidden;
+  height: 63px;
+}
+@media (min-width: 1024px) {
+  .navbar {
+    position: relative;
+    z-index: 1000;
+  }
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #E8E2DB;
+  text-align: center;
+  padding: 20px 16px;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+.navbar a:hover {
+  color: #fcfbfa;
+}
+.navbar ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+  }
+}
+.navbar .navbar__nav {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .navbar .navbar__nav {
+    display: block;
+  }
+  .navbar .navbar__nav .navbar__logo a {
+    padding: 0;
+    display: block;
+    float: left;
+  }
+  .navbar .navbar__nav .navbar__logo img {
+    height: 63px;
+    width: auto;
+    display: block;
+    float: left;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar .navbar__logo_mob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .navbar__logo_mob img {
+    height: 63px;
+    width: auto;
+    display: block;
+  }
+  .navbar .navbar__logo_mob a {
+    padding: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar .navbar__logo_mob {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar .navbar__slider {
+    display: none;
+  }
+}
+
+.side__nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1A3263;
+  opacity: 0.9;
+  overflow: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.side__nav a {
+  padding: 10px 10px 10px 30px;
+  font-size: 22px;
+  color: #E8E2DB;
+  display: block;
+  transition: 0.4s;
+  font-family: "Rubik", sans-serif;
+}
+.side__nav a:hover {
+  color: #fcfbfa;
+}
+.side__nav .side__nav .btn__close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  margin-left: 50px;
+}
+
+.content__archive {
+  text-align: center;
+}
+.content__archive p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content__archive h2 {
+  margin-top: 20px;
+}
+.content__archive ul {
+  margin-bottom: 20px;
+}
+.content__archive-months {
+  margin-bottom: 20px;
+}
+.content__archive .latest {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.characters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.characters ul {
+  margin-top: 20px;
+}
+.characters ul li {
+  border: none;
+  border-bottom: 1px solid #1A3263;
+}
+.characters .characters__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+.characters .characters__grid .characters__grid-img img {
+  max-width: 100%;
+  width: 100%;
+}
+.characters .characters__grid .characters__grid-text h2 {
+  text-align: left;
+}
+.characters .characters__grid .characters__grid-text p {
+  margin-top: 10px;
+}
+
+.comic__page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comic__page img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.comic__description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #1A3263;
+  border-bottom: 1px solid #1A3263;
+}
+
+.page__pagination {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page__pagination p {
+  margin: 0 10px 0 10px;
+}
+
+.comic__footer {
+  text-align: center;
+}
+.comic__footer .square__store {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comic__footer .square__news {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comic__footer .square__custom-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comic__footer .square__custom-links a {
+  background-color: #b3a8a6;
+  display: block;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .comic__footer .square__custom-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+#comics_image .inside img {
+  max-width: 100%;
+}
+
+#characters_image .inside img {
+  max-width: 100%;
+}
+
+img.character_img {
+  max-width: 100%;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    width: 1024px;
+    margin: auto;
+  }
+}
+.container section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section__container {
+  border-bottom: 1px solid #1A3263;
+  padding-bottom: 20px;
+}
+.section__container h3 {
+  margin-bottom: 20px;
+}
+.section__container .section__left {
+  margin-bottom: 20px;
+}
+.section__container .section__middle {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .section__three-parts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+.section__about {
+  border-bottom: 1px solid #1A3263;
+  padding-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .section__about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+.section__about h3 {
+  margin-bottom: 20px;
+}
+.section__about .grid__left, .section__about .grid__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section__about .grid__left img, .section__about .grid__right img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.section__contact {
+  padding-bottom: 20px;
+}
+.section__contact h3, .section__contact p {
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .section__contact p {
+    text-align: center;
+  }
+}
+.section__contact .contact__email {
+  text-align: center;
+}
+
+.contact__social-media {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact__social-media i {
+  padding: 10px;
+  font-size: 50px;
+}
+.contact__social-media i:hover {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+// Contains the basic styles
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Rubik&display=swap');
+
+/**
+* Basic styles for list elements
+*/
+li {
+    list-style: none;
+    color: $text-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/**
+* Basic styles for the headers
+*/
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: $rubik;
+}
+
+/**
+* Sets the font for the body
+*/
+a, p {
+    font-family: $arvo;
+}
+
+/**
+* Basic styles for paragraphs
+*/
+p {
+    letter-spacing: 1px;
+}
+
+/**
+* Basic styles for links
+*/
+a {
+    color: $text-color;
+    text-decoration: none;
+    letter-spacing: 1px;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

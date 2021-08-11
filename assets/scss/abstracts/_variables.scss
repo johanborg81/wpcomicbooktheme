@@ -1,0 +1,34 @@
+// This file contains all application-wide Sass variables
+
+// Copy text color
+/// @type Color
+$text-color: #1A3263;
+
+// Navigation link color
+/// @type Color
+$nav-link-color: #E8E2DB;
+
+// Navigation bar color
+/// @type Color
+$nav-color: #1A3263;
+
+// Main Button color
+/// @type Color
+$main-btn-color: #F5564E;
+
+// Container's maximum width
+/// @type Length
+$max-width: 1024px !default;
+
+// Borders
+$border-bottom: 1px solid $nav-color;
+
+// Fonts
+$rubik: 'Rubik', sans-serif;
+$arvo: 'Arvo', serif;
+
+
+// Media Queries
+$small: 320px;
+$medium: 720px;
+$large: 1024px;

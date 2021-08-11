@@ -1,0 +1,25 @@
+.content__archive {
+
+    text-align: center;
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin-bottom: 20px;
+    }
+
+    &-months {
+        margin-bottom: 20px;
+    }
+
+    .latest {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

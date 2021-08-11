@@ -1,0 +1,31 @@
+footer {
+    background-color: $nav-color;
+    @include center;
+    color: $nav-link-color;
+    padding: 10px 10px;
+    display: block;
+    
+    .footer {
+        &__left {
+            ul {
+                li {
+                    text-align: center;
+                    a {
+                        // color: $nav-link-color;
+                        font-family: $rubik;
+                    }
+                }
+            }
+        }
+        &__middle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__right {
+            margin-top: 20px;
+        }
+    }
+    .copyright {
+        text-align: center;
+    }
+}

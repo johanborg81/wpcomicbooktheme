@@ -1,0 +1,40 @@
+.characters {
+    @include center;
+
+    ul {
+
+        margin-top: 20px;
+
+        li {
+            border: none;
+            border-bottom: $border-bottom;
+        }
+    }
+
+    .characters__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+
+        .characters__grid-img {
+
+            img {
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+
+        .characters__grid-text {
+
+            h2 {
+                text-align: left;
+            }
+
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
